@@ -1,0 +1,6 @@
+Capturile au fost făcute la rezoluția 1024x768
+
+Selectorii care s-au testat au fost (ignorați ghilimelele):
+"body", ".form-container", ".login-form"
+
+Imaginile corespunzătoare se pot vedea în directorul backstop-reference

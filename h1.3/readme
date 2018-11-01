@@ -1,0 +1,6 @@
+Capturile au fost făcute la rezoluția 1024x768
+
+Selectorii care s-au testat au fost (ignorați ghilimelele):
+"body", ".part1", ".part1+.inner-container", ".inner-container+.inner-container"
+
+Imaginile corespunzătoare se pot vedea în directorul backstop-reference

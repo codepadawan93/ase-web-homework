@@ -1,0 +1,15 @@
+{
+  "name": "tema-web-ase-erik-kovacs",
+  "version": "1.0.0",
+  "description": "Tema CSS web ase Erik Kovacs grupa 1078",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./node_modules/.bin/http-server"
+  },
+  "author": "kovaroberik@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
