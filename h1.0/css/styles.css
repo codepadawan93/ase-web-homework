@@ -1,0 +1,115 @@
+* {
+    border: 1px dotted red;
+}
+
+/** General **/
+body {
+    color: #00AEEF;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    color: #00AEEF;
+    border-radius: 10px;
+    border-width: 0px;
+
+    /** I know it wasn't in the spec but it looked too bad **/
+    background-color: #fff;
+    box-shadow: 0px 1px 3px #ddd;
+    padding: 6px;
+}
+
+
+button:hover {
+    color: #fff;
+    background-color: #00AEEF;
+}
+
+/** Navigation **/
+.navigation-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.navigation-container .navigation-item{
+   height: 3rem;
+   margin: auto;
+}
+
+.navigation-container a.navigation-item{
+    color: #00AEEF;
+    text-decoration: none;
+}
+
+/** Home **/
+.home-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.home-action-call, .home-image {
+    margin: 0 auto;
+}
+
+/** Team **/
+.team-container {
+    width: 90%;
+    height: 33rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.team-circle-container {
+    padding: 100px;
+}
+
+.team-circle {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.team-circle-container:first-child div{
+    background: #00AEEF;
+}
+
+
+.team-circle-container:nth-child(2) div{
+    background: #0000FF;
+}
+
+.team-circle-container:last-child div{
+    background: #FF00FF;
+}
+
+/** About **/
+.about-container {
+    width: 90%;
+    height: 15rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+}
+
+.about-item {
+    border-radius: 20px;
+}
+
+.about-item:hover {
+    background-color: #00AEEF;
+}
+
+/** COntact **/
+.contact-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    size: 25px;
+}
