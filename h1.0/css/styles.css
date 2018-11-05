@@ -1,6 +1,6 @@
-* {
+/* * {
     border: 1px dotted red;
-}
+} */
 
 /** General **/
 body {
@@ -29,18 +29,22 @@ button:hover {
 /** Navigation **/
 .navigation-container {
     width: 100%;
+    height: 3rem;
+    line-height: 3rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .navigation-container .navigation-item{
-   height: 3rem;
-   margin: auto;
+   margin: 0 auto;
+   vertical-align: middle;
+   height: 100%;
 }
 
 .navigation-container a.navigation-item{
     color: #00AEEF;
     text-decoration: none;
+    margin: 0 auto;
 }
 
 /** Home **/
@@ -52,6 +56,15 @@ button:hover {
 
 .home-action-call, .home-image {
     margin: 0 auto;
+    display: grid;
+}
+
+.home-action-call h1 {
+    align-self: center;
+}
+
+.home-action-call button {
+    height: 40px;
 }
 
 /** Team **/
@@ -73,18 +86,20 @@ button:hover {
     width: 100%;
     height: 100%;
     color: #fff;
+    /* I know it's not in the spec, but without this you can't tell where they are */
+    box-shadow: 0px 1px 3px #ddd;
 }
 
-.team-circle-container:first-child div{
+.team-circle-container:first-child div:hover{
     background: #00AEEF;
 }
 
 
-.team-circle-container:nth-child(2) div{
+.team-circle-container:nth-child(2) div:hover{
     background: #0000FF;
 }
 
-.team-circle-container:last-child div{
+.team-circle-container:last-child div:hover{
     background: #FF00FF;
 }
 
@@ -100,6 +115,8 @@ button:hover {
 
 .about-item {
     border-radius: 20px;
+    /* I know it's not in the spec, but without this you can't tell where they are */
+    box-shadow: 0px 1px 3px #ddd;
 }
 
 .about-item:hover {
@@ -109,6 +126,7 @@ button:hover {
 /** COntact **/
 .contact-container {
     width: 100%;
+    padding-top: 2rem;
     margin: 0 auto;
     text-align: center;
     size: 25px;
